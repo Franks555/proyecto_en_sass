@@ -1,0 +1,707 @@
+@media (max-width: 1200px){
+
+    /*--------------------  Menú de navegación y logo | 1200px --------------------*/
+    
+    
+    .subtitulos_secciones{
+        color: #7A7671;
+        padding-bottom: 40px;
+        font-size: 1.7rem;
+    }
+    
+    .texto_gris{
+        color: #817D76;
+        font-size: 1.1rem;
+    }
+    
+    nav{
+        grid-template-areas:
+        "logo nav_bar nav_bar nav_bar nav_bar nav_bar"
+        "search_bar search_bar search_bar search_bar search_bar search_bar";
+        padding: 30px;
+    }
+    
+    .nav_bar li{
+        font-size: 1.1rem;
+        display: inline-block;
+        padding-right: 30px;
+        padding-left: 25px;
+    }
+    
+    .search_bar{
+        padding: 5px;
+    }
+    
+    
+    /*-------------------- Sección Reserva de turno | 1200px --------------------*/
+    
+    .reserva_texto{
+        font-size: 1rem;
+    }
+    
+    .reserva_texto h1{
+        font-size: 2.2rem;
+    }
+    
+    .reserva_boton a{
+        font-size: 1.1rem;
+    }
+    
+    
+    /*-------------------- Sección Reserva de turno | 1200px --------------------*/
+    
+    
+    
+    .especialidad_categorias ul{
+        text-align: center;
+    
+    }
+    
+    .especialidad_categorias li{
+        padding: 20px;
+    }
+    
+    
+    /*-------------------- Sección Beneficios | 1200px --------------------*/
+    
+    .beneficios{
+        display: grid;
+        grid-template-areas:
+        "beneficio_titulo beneficio_titulo "
+        "beneficio_1 beneficio_2"
+        "beneficio_3 beneficio_4";
+        background-color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 5%;
+    }
+    
+    
+    .beneficios h3{
+        font-size: 1.2rem;
+    }
+    
+    .beneficios p{
+        font-size: 1rem;
+        grid-area: beneficio_titulo;
+    }
+    
+    .beneficio_1{
+        padding-right: 20px;
+        grid-area: beneficio_1;
+    }
+    
+    .beneficio_2{
+        padding-right: 20px;
+        grid-area: beneficio_2;
+    }
+    
+    .beneficio_3{
+        padding-right: 20px;
+        grid-area: beneficio_3;
+    }
+    
+    .beneficio_4{
+        padding-right: 20px;
+        grid-area: beneficio_4;
+    }
+    
+    /*-------------------- contacto.html | 1200px --------------------*/
+    
+    .contacto form input[type=submit]{
+        margin-left: 280px;
+    }
+    
+    
+    }
+    
+    
+    /*-------------------------  768px -----------------------------*/
+    
+    
+    @media (max-width: 768px){
+    
+    /*--------------------  Menú de navegación y logo | 768px --------------------*/
+    
+    .subtitulos_secciones{
+        color: #7A7671;
+        padding-bottom: 40px;
+        font-size: 2rem;
+     }
+    
+     .texto_gris{
+        color: #817D76;
+        font-size: 1.3rem;
+    }
+    
+    .texto_verde{
+        color: #49B7BF;
+        font-size: 2.1rem;
+    }
+    
+    nav{
+        grid-template-areas:
+        "logo logo logo logo logo logo"
+        "nav_bar nav_bar nav_bar nav_bar nav_bar nav_bar"
+        "search_bar search_bar search_bar search_bar search_bar search_bar";
+        padding: 30px;
+    }
+    
+    .logo{
+        justify-self: center;
+    }
+    
+    .logo img{
+        width:260px;
+    
+    }
+    
+    .nav_bar ul{
+        text-align: center;
+    }
+    
+    .nav_bar li{
+        font-size: 1.2rem;
+        display: inline-block;
+        padding-left: 35px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+    
+    }
+        
+    .search_bar{    
+        padding: 5px;
+    }
+    
+    
+    /*-------------------- Sección Reserva de turno | 768px --------------------*/
+    
+    .reserva_turno {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color: #EAF3F2;
+    }
+    
+    .reserva_boton{
+        padding-top: 20px;
+        padding-right: 100px;
+    }
+    
+    .reserva_imagen img{
+        width: 400px;
+        padding-top: 50px;
+    }
+    
+    
+    /*-------------------- Sección Servicios | 768px --------------------*/
+    
+    .servicio_1 p{
+        text-align: center;
+        width: 200px;
+    }
+    
+    .servicio_2 p{
+        text-align: center;
+        width: 200px;
+    }
+    
+    .servicio_3 p{
+        text-align: center;
+        width: 200px;
+    }
+    
+    
+    /*-------------------- Sección Beneficios | 768px --------------------*/
+    
+    .beneficios{
+        display: grid;
+        grid-template-areas:
+        "beneficio_titulo beneficio_titulo "
+        "beneficio_1 beneficio_2"
+        "beneficio_3 beneficio_4";
+        background-color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 5%;
+    }
+    
+    
+    .beneficios h3{
+        font-size: 1.2rem;
+    }
+    
+    .beneficios p{
+        font-size: 1rem;
+        grid-area: beneficio_titulo;
+    }
+    
+    .beneficio_1{
+        padding-right: 20px;
+        grid-area: beneficio_1;
+    }
+    
+    .beneficio_2{
+        padding-right: 20px;
+        grid-area: beneficio_2;
+    }
+    
+    .beneficio_3{
+        padding-right: 20px;
+        grid-area: beneficio_3;
+    }
+    
+    .beneficio_4{
+        padding-right: 20px;
+        grid-area: beneficio_4;
+    }
+    
+    
+    /*-------------------- Sección Opiniones | 768px --------------------*/
+    
+    .opiniones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 5%;
+    }
+    
+    .opinion_titulo h2{
+        padding-bottom: 25px;    
+    }
+    
+    /*-------------------- contacto.html | 768px --------------------*/
+    
+    .contacto form input[type=submit]{
+        margin-left: 280px;
+    }
+    
+    
+    /*-------------------- Footer | 768px --------------------*/
+    
+    footer_titulo h3{
+        font-size: 1.1rem;
+    }
+    
+    footer_copyright p{
+        font-size: 1.1rem;
+    }
+    
+    }
+    
+    
+    
+    /*-------------------------  600px -----------------------------*/
+    
+    
+    
+    @media (max-width: 600px){
+    
+    /*-------------------- Sección Reserva de turno | 600px --------------------*/
+    
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 40px;
+    }
+    
+    .servicios p{
+        width: 400px;
+    }
+        
+    .servicio_1{
+        padding-bottom: 30px;
+    }
+    
+    .servicio_1 p{
+        width: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .servicio_2{
+        padding-bottom: 30px;
+    }
+    
+    .servicio_2 p{
+        width: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .servicio_3{
+        padding-bottom: 30px;
+    }
+    
+    .servicio_3 p{
+        width: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    
+    
+    /*-------------------- Sección Reserva de turno | 600px --------------------*/
+    
+    
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .beneficio_1 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 h3{
+        width: 190px;
+        text-align: center;
+    }
+    
+    .beneficio_3 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_4 {
+        padding-bottom: 40px;
+    }
+    
+    /*-------------------- contacto.html | 600px --------------------*/
+    
+    .contacto form input[type=submit]{
+        margin-left: 280px;
+    }
+    
+    }
+    
+    
+    
+    /*-------------------------  480px -----------------------------*/
+    
+    
+    
+    @media (max-width: 480px){
+    
+    /*-------------------- Sección Reserva de turno | 480px --------------------*/
+    
+    .reserva_turno{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        }
+        
+        .reserva_texto h1{    
+            font-size: 36px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        .reserva_texto p{
+            width: 490px;
+            font-size:1.3rem;
+            text-align: center;
+        }
+        
+        .reserva_imagen img{
+            width: 480px;
+        }
+    
+        .reserva_boton a{
+            display: block;
+            text-align: center;
+            width: 220px;
+            }
+    
+    
+    /*-------------------- Sección Especialidades | 480px --------------------*/
+    
+    .especialidad_categorias ul{
+        padding-right: 10%;
+        }
+    
+    
+    /*-------------------- Sección Servicios | 480px --------------------*/
+    
+    .servicios p{
+        width: 240px;
+    }
+    
+    .servicio_1 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+        }
+    
+    .servicio_2 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .servicio_3 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    
+    /*-------------------- Sección Beneficios | 480px --------------------*/
+    
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .beneficio_1 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 h3{
+        width: 190px;
+        text-align: center;
+    }
+    
+    .beneficio_3 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_4 {
+        padding-bottom: 40px;
+    }
+    /*-------------------- Sección Opiniones | 480px --------------------*/
+    
+    .opiniones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .opiniones p{
+        width: 250px;
+    }
+    
+    .opinion_texto p{
+       display: none;
+    }
+    
+    .opinion_titulo h2{
+        width: 330px;
+        text-align: center;   
+    }
+    
+    .opinion_paciente{
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+        width: 440px;
+    }
+    
+    .opinion_paciente h4{
+        text-align: center;
+        width: 450px;
+    
+    }
+    
+    .opinion_paciente p{
+        width: 380px;
+        padding-left: 30px;
+    }
+    
+    /*-------------------- contacto.html | 480px --------------------*/
+    
+    .contacto form input[type=submit]{
+        margin-left: 280px;
+    }
+    
+    
+    }
+    
+    
+    /*-------------------------  320px -----------------------------*/
+    
+    
+    
+    @media (max-width: 320px){
+    
+    /*-------------------- Sección Reserva de turno | 320px --------------------*/
+    
+    .reserva_turno{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+    }
+    
+    .reserva_texto{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+        .reserva_texto h1{    
+            font-size: 30px;
+            width: 320px;
+            padding-top: 30px;
+        }
+        
+        .reserva_texto p{
+            width: 300px;
+            font-size:1.3rem;
+            text-align: center;
+        }
+        
+        .reserva_imagen img{
+            width: 300px;
+            position: relative;
+        }
+        
+        .reserva_boton a{
+        margin-left: 20%;
+        display: block;
+        text-align: center;
+        width: 220px;
+        }
+    
+    
+    /*-------------------- Sección Especialidades | 320px --------------------*/
+    
+    .especialidad_categorias ul{
+    padding-right: 30%;
+    }
+    
+    /*-------------------- Sección Servicios | 320px --------------------*/
+    
+    .servicios p{
+        width: 240px;
+    }
+    
+    .servicio_1 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+        }
+    
+    .servicio_2 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .servicio_3 p{
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    /*-------------------- Sección Beneficios | 320px --------------------*/
+    
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .beneficio_1 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_2 h3{
+        width: 190px;
+        text-align: center;
+    }
+    
+    .beneficio_3 {
+        padding-bottom: 40px;
+    }
+    
+    .beneficio_4 {
+        padding-bottom: 40px;
+    }
+    
+    /*-------------------- Sección Opiniones | 320px --------------------*/
+    
+    
+    .opiniones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .opiniones p{
+        width: 250px;
+    }
+    
+    .opinion_texto p{
+       display: none;
+    }
+    
+    .opinion_titulo h2{
+        width: 320px;
+        text-align: center;   
+    }
+    
+    .opinion_paciente{
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+        width: 300px;
+    }
+    
+    .opinion_paciente h4{
+        text-align: center;
+        width: 270px;
+    
+    }
+    
+    .opinion_paciente p{
+        width: 270px;
+    }
+    
+    /*-------------------- quienes_somos.html | 320px --------------------*/
+    
+    .nuestra_historia img{
+        width: 300px;
+    }
+    
+    /*-------------------- nuestros_profesionales.html | 320px --------------------*/
+    
+    .nuestros_profesionales > img{
+    width: 300px;
+    }
+    
+    /*-------------------- contacto.html | 320px --------------------*/
+    
+    
+    .contacto form textarea{
+        width: 280px;
+    }
+    
+    .contacto form input[type=submit]{
+        display: inline-block;
+        margin-left: 150px;
+    }
+    
+    .contacto form input[type=reset]{
+        display: inline-block;
+    }
+    
+    }

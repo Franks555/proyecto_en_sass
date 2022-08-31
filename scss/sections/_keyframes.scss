@@ -1,0 +1,38 @@
+@keyframes animacion_letra{
+    0%{
+        position: relative;
+        bottom: 0px;
+    }
+    5%{
+        position: relative;
+        bottom: 3px;
+    }
+    10%{
+        position: relative;
+        bottom: 0px;
+    }
+    100%{
+        position: relative;
+        bottom: 0px;
+    }
+
+}
+
+@keyframes animacion_red_social{
+    0%{
+
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    50%{
+
+        }
+    75%{
+       
+    }   
+    100%{transform: rotate(360deg);
+
+    }
+
+}

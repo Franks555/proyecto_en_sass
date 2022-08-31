@@ -1,7 +1,19 @@
-.titulo { 
-    background-color: red;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.titulo h1{
-    background-color: yellow;
+html, body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@import './sections/navbar';
+@import './sections/index';
+@import './sections/quienes_somos';
+@import './sections/nuestros_profesionales';
+@import './sections/sucursales';
+@import './sections/contacto';
+@import './sections/footer';
+@import './sections/keyframes';
+@import './sections/mediaqueries';
