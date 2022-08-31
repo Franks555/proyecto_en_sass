@@ -272,6 +272,15 @@ html, body {
   transform: scale(1.1, 1.1);
   transition: 0.3s; }
 
+.especialidad {
+  padding: 20px; }
+
+.especialidad p {
+  padding-top: 10px; }
+
+.especialidad h2 {
+  color: #7A7671; }
+
 /*------- Sección Servicios -------*/
 .servicios {
   background-color: #EAF3F2;
@@ -479,32 +488,20 @@ html, body {
   width: 515px;
   padding-left: 20px; }
 
-.nuestros_profesionales {
+main .nuestros_profesionales {
   background-color: #EAF3F2;
   padding-top: 20px;
   padding-bottom: 40px; }
-
-.nuestros_profesionales > h1 {
-  padding-left: 20px; }
-
-.nuestros_profesionales > img {
-  width: 500px;
-  padding-top: 45px;
-  padding-left: 20px;
-  padding-bottom: 20px; }
-
-.nuestros_profesionales > p {
-  padding-left: 20px;
-  padding-bottom: 20px; }
-
-.especialidad {
-  padding: 20px; }
-
-.especialidad p {
-  padding-top: 10px; }
-
-.especialidad h2 {
-  color: #7A7671; }
+  main .nuestros_profesionales > h1 {
+    padding-left: 20px; }
+  main .nuestros_profesionales > img {
+    width: 500px;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-bottom: 20px; }
+  main .nuestros_profesionales > p {
+    padding-left: 20px;
+    padding-bottom: 20px; }
 
 .sucursales {
   padding: 20px; }
