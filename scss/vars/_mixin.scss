@@ -1,0 +1,5 @@
+@mixin estilo_texto ($color_fondo, $color_texto){
+    background-color: $color_fondo;
+    color: $color_texto;
+    font-size: 1rem;
+}

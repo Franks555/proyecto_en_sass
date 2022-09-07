@@ -195,14 +195,14 @@
     grid-template-areas:
     "reserva_texto reserva_imagen"
     "reserva_boton reserva_imagen";
-    background-color: #EAF3F2;
+    @include estilo_texto(#EAF3F2, #49B7BF);
 }
 
 .reserva_texto{
     grid-area: reserva_texto;
     align-self: center;
     justify-self: end;
-    color: #49B7BF;
+
     width: 500px;
     font-size: 15px;
 }

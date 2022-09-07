@@ -8,6 +8,14 @@ html, body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+// Variables
+
+@import './vars/colors';
+@import './vars/extend';
+@import './vars/mixin';
+
+// Secciones
+
 @import './sections/navbar';
 @import './sections/index';
 @import './sections/quienes_somos';

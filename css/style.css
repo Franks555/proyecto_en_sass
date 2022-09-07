@@ -192,13 +192,14 @@ html, body {
 .reserva_turno {
   display: grid;
   grid-template-areas: "reserva_texto reserva_imagen" "reserva_boton reserva_imagen";
-  background-color: #EAF3F2; }
+  background-color: #EAF3F2;
+  color: #49B7BF;
+  font-size: 1rem; }
 
 .reserva_texto {
   grid-area: reserva_texto;
   align-self: center;
   justify-self: end;
-  color: #49B7BF;
   width: 500px;
   font-size: 15px; }
 
