@@ -7,6 +7,11 @@
 html, body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
+.especialidades, .servicios, .beneficios, .opiniones {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 5%; }
+
 .header {
   background-color: #49B7BF; }
 
@@ -249,9 +254,8 @@ html, body {
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 5%; }
+  color: #817D76;
+  font-size: 1rem; }
 
 .especialidad_texto p {
   text-align: center; }
@@ -269,6 +273,13 @@ html, body {
   transform: scale(1, 1);
   transition: 0.3s; }
 
+.especialidades li p {
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 10px;
+  color: #49B7BF;
+  font-weight: 600; }
+
 .especialidades li img:hover {
   transform: scale(1.1, 1.1);
   transition: 0.3s; }
@@ -285,11 +296,10 @@ html, body {
 /*------- Sección Servicios -------*/
 .servicios {
   background-color: #EAF3F2;
+  color: #817D76;
+  font-size: 1rem;
   display: grid;
-  grid-template-areas: "servicio_texto servicio_texto servicio_texto" "servicio_1 servicio_2 servicio_3";
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 5%; }
+  grid-template-areas: "servicio_texto servicio_texto servicio_texto" "servicio_1 servicio_2 servicio_3"; }
 
 .servicio_texto {
   grid-area: servicio_texto;
@@ -337,9 +347,8 @@ html, body {
   flex-direction: row;
   justify-content: space-around;
   background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 5%; }
+  color: #817D76;
+  font-size: 1rem; }
 
 .beneficios p {
   width: 200px;
@@ -407,14 +416,10 @@ html, body {
 /*------- Sección Opiniones -------*/
 .opiniones {
   background-color: #EAF3F2;
+  color: #49B7BF;
+  font-size: 1rem;
   display: grid;
-  grid-template-areas: "opinion_titulo opinion_paciente ." "opinion_texto opinion_paciente .";
-  padding-top: 60px;
-  padding-bottom: 20px;
-  padding-left: 5%; }
-
-.opiniones p {
-  color: #49B7BF; }
+  grid-template-areas: "opinion_titulo opinion_paciente ." "opinion_texto opinion_paciente ."; }
 
 .opinion_titulo {
   grid-area: opinion_titulo;
