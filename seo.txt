@@ -1,0 +1,15 @@
+1. Coloqué meta keywords en todos los HTML:
+- index: clínica, médico, centro médico, salud, turno, turno medico
+- contacto: contacto, escribinos, ayuda
+- profesionales: profesionales, medicos
+- quienes_somos: historia, nuestros inicios
+- sucursales: sucursales, localización, centros, ubicaciones
+
+2. Coloqué meta description en todos los HTML:
+- index: saca un turno en el centro medico healthar
+- contacto: comunicate con el centro healthar
+- profesionales: Conocé nuestros profesionales del centro medico healthar
+- quienes_somos: La historia del centro medico healthar
+- sucursales: Conocé nuestras sucursales del centro medico healthar
+
+3. En el Index, eliminé los textos en las imágenes de Especialidades y Servicios y los coloqué como textos separados.
