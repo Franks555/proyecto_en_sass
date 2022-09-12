@@ -12,7 +12,7 @@
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Francisco Aquerreta",
   "license": "ISC",
-  "description": ""
+  "description": "Web oficial del Centro Médico Healthar. La misma describe las especialidades que posee, los servicios que ofrece a los pacientes y los profesionales que trabajan allí."
 }
