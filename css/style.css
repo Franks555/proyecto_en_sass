@@ -477,22 +477,21 @@ html, body {
 
 .nuestra_historia {
   background-color: #EAF3F2; }
-
-.nuestra_historia h1 {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-bottom: 40px; }
-
-.nuestra_historia > p {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: justify;
-  margin-bottom: 0px; }
-
-.nuestra_historia img {
-  width: 515px;
-  padding-left: 20px; }
+  .nuestra_historia h1 {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px; }
+  .nuestra_historia h2 {
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 20px; }
+  .nuestra_historia p {
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 0px; }
+  .nuestra_historia img {
+    width: 515px;
+    padding: 20px; }
 
 main .nuestros_profesionales {
   background-color: #EAF3F2;
@@ -505,6 +504,8 @@ main .nuestros_profesionales {
     padding-bottom: 20px; }
   main .nuestros_profesionales h1 {
     padding-left: 20px; }
+  main .nuestros_profesionales h2 {
+    padding-bottom: 10px; }
   main .nuestros_profesionales h3 {
     color: #979797;
     font-size: 1.3rem; }
@@ -513,18 +514,16 @@ main .nuestros_profesionales {
     padding-bottom: 20px; }
 
 .sucursales {
-  padding: 20px; }
-
-.sucursales h2 {
-  text-decoration: underline;
-  padding-top: 20px; }
-
-.sucursales > p {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-
-.sucursales .direccion {
-  font-weight: 700; }
+  padding: 20px;
+  background-color: #EAF3F2; }
+  .sucursales h2 {
+    text-decoration: underline;
+    padding-top: 20px; }
+  .sucursales p {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .sucursales .direccion {
+    font-weight: 700; }
 
 .contacto {
   padding-top: 20px;
@@ -532,27 +531,23 @@ main .nuestros_profesionales {
   padding-left: 5%;
   background-color: #EAF3F2;
   height: 100%; }
-
-.contacto form input {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: #5f5c59 1px solid;
-  border-radius: 7px;
-  padding: 5px; }
-
-.contacto form input[type=submit] {
-  display: inline-block;
-  margin-left: 280px; }
-
-.contacto form input[type=reset] {
-  display: inline-block; }
-
-.contacto form textarea {
-  display: block;
-  border: #5f5c59 1px solid;
-  border-radius: 7px;
-  padding: 5px; }
+  .contacto form input {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: #5f5c59 1px solid;
+    border-radius: 7px;
+    padding: 5px; }
+  .contacto form input[type=submit] {
+    display: inline-block;
+    margin-left: 280px; }
+  .contacto form input[type=reset] {
+    display: inline-block; }
+  .contacto form textarea {
+    display: block;
+    border: #5f5c59 1px solid;
+    border-radius: 7px;
+    padding: 5px; }
 
 footer {
   display: flex;

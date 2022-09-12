@@ -5,34 +5,28 @@
     padding-left: 5%;
     background-color: #EAF3F2;
     height: 100%;
-}
-
-
-.contacto form input{
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: #5f5c59 1px solid;
-    border-radius: 7px;
-    padding: 5px;
-}
-
-
-
-.contacto form input[type=submit]{
-    display: inline-block;
-    margin-left: 280px;
-}
-
-
-.contacto form input[type=reset]{
-    display: inline-block;
-
-}
-
-.contacto form textarea{
-    display: block;
-    border: #5f5c59 1px solid;
-    border-radius: 7px;
-    padding: 5px;
+    form{
+        input{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: #5f5c59 1px solid;
+        border-radius: 7px;
+        padding: 5px;
+        }
+        input[type=submit]{
+            display: inline-block;
+            margin-left: 280px;
+        }
+        input[type=reset]{
+            display: inline-block;
+        
+        }
+        textarea{
+            display: block;
+            border: #5f5c59 1px solid;
+            border-radius: 7px;
+            padding: 5px;
+        }
+    }
 }

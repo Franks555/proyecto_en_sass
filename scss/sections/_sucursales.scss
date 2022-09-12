@@ -1,17 +1,15 @@
 .sucursales{
     padding: 20px;
-}
-
-.sucursales h2{
-    text-decoration: underline;
-    padding-top: 20px;
-}
-
-.sucursales > p{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.sucursales .direccion {
-    font-weight: 700;
+    background-color: #EAF3F2;
+    h2{
+        text-decoration: underline;
+        padding-top: 20px;
+    }
+    p{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .direccion {
+        font-weight: 700;
+    }
 }
