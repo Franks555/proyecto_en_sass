@@ -200,21 +200,18 @@ html, body {
   background-color: #EAF3F2;
   color: #49B7BF;
   font-size: 1rem; }
-
-.reserva_texto {
-  grid-area: reserva_texto;
-  align-self: center;
-  justify-self: end;
-  width: 500px;
-  font-size: 15px; }
-
-.reserva_texto h1 {
-  font-size: 35px;
-  padding-right: 40px;
-  padding-bottom: 30px; }
-
-.reserva_texto p {
-  text-align: justify; }
+  .reserva_turno .reserva_texto {
+    grid-area: reserva_texto;
+    align-self: center;
+    justify-self: end;
+    width: 500px;
+    font-size: 15px; }
+    .reserva_turno .reserva_texto h1 {
+      font-size: 35px;
+      padding-right: 40px;
+      padding-bottom: 30px; }
+    .reserva_turno .reserva_texto p {
+      text-align: justify; }
 
 .reserva_boton {
   grid-area: reserva_boton;
@@ -222,32 +219,29 @@ html, body {
   align-self: center;
   padding-top: 20px;
   padding-right: 150px; }
-
-.reserva_boton a {
-  background: linear-gradient(to top, #be6f1a, #F58E22);
-  position: relative;
-  bottom: 0px;
-  transition: 0.3s;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 25px;
-  padding-left: 25px;
-  color: white;
-  text-decoration: none;
-  border-radius: 15px; }
-
-.reserva_boton a:hover {
-  position: relative;
-  bottom: 2px;
-  transition: 0.3s; }
+  .reserva_boton a {
+    background: linear-gradient(to top, #be6f1a, #F58E22);
+    position: relative;
+    bottom: 0px;
+    transition: 0.3s;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px; }
+    .reserva_boton a:hover {
+      position: relative;
+      bottom: 2px;
+      transition: 0.3s; }
 
 .reserva_imagen {
   grid-area: reserva_imagen;
   justify-self: start;
   width: 520px; }
-
-.reserva_imagen img {
-  width: 500px; }
+  .reserva_imagen img {
+    width: 500px; }
 
 /*------- Sección Especialidades -------*/
 .especialidades {
@@ -256,42 +250,27 @@ html, body {
   background-color: white;
   color: #817D76;
   font-size: 1rem; }
-
-.especialidad_texto p {
-  text-align: center; }
-
-.especialidades p {
-  padding-bottom: 40px; }
-
-.especialidades li {
-  display: inline-block;
-  padding-left: 60px;
-  transform: scale(1, 1);
-  transition: 0.3s; }
-
-.especialidades li img {
-  transform: scale(1, 1);
-  transition: 0.3s; }
-
-.especialidades li p {
-  text-align: center;
-  padding-left: 5px;
-  padding-top: 10px;
-  color: #49B7BF;
-  font-weight: 600; }
-
-.especialidades li img:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.3s; }
-
-.especialidad {
-  padding: 20px; }
-
-.especialidad p {
-  padding-top: 10px; }
-
-.especialidad h2 {
-  color: #7A7671; }
+  .especialidades .especialidad_texto p {
+    text-align: center; }
+  .especialidades p {
+    padding-bottom: 40px; }
+  .especialidades li {
+    display: inline-block;
+    padding-left: 60px;
+    transform: scale(1, 1);
+    transition: 0.3s; }
+    .especialidades li img {
+      transform: scale(1, 1);
+      transition: 0.3s; }
+      .especialidades li img:hover {
+        transform: scale(1.1, 1.1);
+        transition: 0.3s; }
+    .especialidades li p {
+      text-align: center;
+      padding-left: 5px;
+      padding-top: 10px;
+      color: #49B7BF;
+      font-weight: 600; }
 
 /*------- Sección Servicios -------*/
 .servicios {
@@ -300,46 +279,35 @@ html, body {
   font-size: 1rem;
   display: grid;
   grid-template-areas: "servicio_texto servicio_texto servicio_texto" "servicio_1 servicio_2 servicio_3"; }
-
-.servicio_texto {
-  grid-area: servicio_texto;
-  margin-bottom: 30px; }
-
-.servicio_texto p {
-  margin-bottom: 40px; }
-
-.servicio_1 {
-  grid-area: servicio_1; }
-
-.servicio_1 img {
-  transform: rotateY(0deg);
-  transition: 0.3s; }
-
-.servicio_1 img:hover {
-  transform: rotate(2deg);
-  transition: 0.3s; }
-
-.servicio_2 {
-  grid-area: servicio_2; }
-
-.servicio_2 img {
-  transform: rotateY(0deg);
-  transition: 0.3s; }
-
-.servicio_2 img:hover {
-  transform: rotate(-2deg);
-  transition: 0.3s; }
-
-.servicio_3 {
-  grid-area: servicio_3; }
-
-.servicio_3 img {
-  transform: rotateY(0deg);
-  transition: 0.3s; }
-
-.servicio_3 img:hover {
-  transform: rotate(2deg);
-  transition: 0.3s; }
+  .servicios .servicio_texto {
+    grid-area: servicio_texto;
+    margin-bottom: 30px; }
+    .servicios .servicio_texto p {
+      margin-bottom: 40px; }
+  .servicios .servicio_1 {
+    grid-area: servicio_1; }
+    .servicios .servicio_1 img {
+      transform: rotateY(0deg);
+      transition: 0.3s; }
+      .servicios .servicio_1 img:hover {
+        transform: rotate(2deg);
+        transition: 0.3s; }
+  .servicios .servicio_2 {
+    grid-area: servicio_2; }
+    .servicios .servicio_2 img {
+      transform: rotateY(0deg);
+      transition: 0.3s; }
+      .servicios .servicio_2 img:hover {
+        transform: rotate(-2deg);
+        transition: 0.3s; }
+  .servicios .servicio_3 {
+    grid-area: servicio_3; }
+    .servicios .servicio_3 img {
+      transform: rotateY(0deg);
+      transition: 0.3s; }
+      .servicios .servicio_3 img:hover {
+        transform: rotate(2deg);
+        transition: 0.3s; }
 
 /*------- Sección Beneficios -------*/
 .beneficios {
@@ -349,69 +317,55 @@ html, body {
   background-color: white;
   color: #817D76;
   font-size: 1rem; }
-
-.beneficios p {
-  width: 200px;
-  text-align: center; }
-
-.beneficios h3 {
-  padding-bottom: 20px; }
-
-.beneficio_1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px; }
-
-.beneficio_1 img {
-  width: 80px;
-  padding: 15px; }
-
-.beneficio_1 p {
-  width: 310px;
-  text-align: center; }
-
-.beneficio_2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px; }
-
-.beneficio_2 img {
-  width: 80px;
-  padding: 15px; }
-
-.beneficio_2 p {
-  width: 310px;
-  text-align: center; }
-
-.beneficio_3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px; }
-
-.beneficio_3 img {
-  width: 80px;
-  padding: 15px; }
-
-.beneficio_3 p {
-  width: 310px;
-  text-align: center; }
-
-.beneficio_4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px; }
-
-.beneficio_4 img {
-  width: 80px;
-  padding: 15px; }
-
-.beneficio_4 p {
-  width: 310px;
-  text-align: center; }
+  .beneficios p {
+    width: 200px;
+    text-align: center; }
+  .beneficios h3 {
+    padding-bottom: 20px; }
+  .beneficios .beneficio_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; }
+    .beneficios .beneficio_1 img {
+      width: 80px;
+      padding: 15px; }
+    .beneficios .beneficio_1 p {
+      width: 310px;
+      text-align: center; }
+  .beneficios .beneficio_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; }
+    .beneficios .beneficio_2 img {
+      width: 80px;
+      padding: 15px; }
+    .beneficios .beneficio_2 p {
+      width: 310px;
+      text-align: center; }
+  .beneficios .beneficio_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; }
+    .beneficios .beneficio_3 img {
+      width: 80px;
+      padding: 15px; }
+    .beneficios .beneficio_3 p {
+      width: 310px;
+      text-align: center; }
+  .beneficios .beneficio_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; }
+    .beneficios .beneficio_4 img {
+      width: 80px;
+      padding: 15px; }
+    .beneficios .beneficio_4 p {
+      width: 310px;
+      text-align: center; }
 
 /*------- Sección Opiniones -------*/
 .opiniones {
@@ -420,60 +374,50 @@ html, body {
   font-size: 1rem;
   display: grid;
   grid-template-areas: "opinion_titulo opinion_paciente ." "opinion_texto opinion_paciente ."; }
-
-.opinion_titulo {
-  grid-area: opinion_titulo;
-  justify-self: end;
-  align-self: center;
-  padding-right: 120px; }
-
-.opinion_titulo h2 {
-  color: #49B7BF;
-  padding-bottom: 0px; }
-
-.opinion_texto {
-  grid-area: opinion_texto;
-  justify-self: end;
-  padding-right: 30px;
-  width: 450px;
-  height: 80px; }
-
-.opiniones_texto p {
-  color: #49B7BF;
-  font-size: 16px;
-  width: 350px;
-  height: 80px; }
-
-.opinion_paciente {
-  grid-area: opinion_paciente;
-  border: #7A7671 2px solid;
-  border-radius: 20px;
-  padding-left: 50px;
-  display: inline-block;
-  width: 400px;
-  justify-self: start; }
-
-.opinion_paciente img {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 60px; }
-
-.opinion_paciente h4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px; }
-
-.opinion_paciente p {
-  color: #49B7BF;
-  text-align: justify;
-  width: 310px; }
-
-.perfil_paciente ul {
-  list-style: none;
-  width: 200px; }
-
-.perfil_paciente li {
-  display: inline-block; }
+  .opiniones .opinion_titulo {
+    grid-area: opinion_titulo;
+    justify-self: end;
+    align-self: center;
+    padding-right: 120px; }
+    .opiniones .opinion_titulo h2 {
+      color: #49B7BF;
+      padding-bottom: 0px; }
+  .opiniones .opinion_texto {
+    grid-area: opinion_texto;
+    justify-self: end;
+    padding-right: 30px;
+    width: 450px;
+    height: 80px; }
+    .opiniones .opinion_texto p {
+      color: #49B7BF;
+      font-size: 16px;
+      width: 350px;
+      height: 80px; }
+  .opiniones .opinion_paciente {
+    grid-area: opinion_paciente;
+    border: #7A7671 2px solid;
+    border-radius: 20px;
+    padding-left: 50px;
+    display: inline-block;
+    width: 400px;
+    justify-self: start; }
+    .opiniones .opinion_paciente img {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      height: 60px; }
+    .opiniones .opinion_paciente h4 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-right: 30px; }
+    .opiniones .opinion_paciente p {
+      color: #49B7BF;
+      text-align: justify;
+      width: 310px; }
+    .opiniones .opinion_paciente .perfil_paciente ul {
+      list-style: none;
+      width: 200px; }
+      .opiniones .opinion_paciente .perfil_paciente ul li {
+        display: inline-block; }
 
 .nuestra_historia {
   background-color: #EAF3F2; }

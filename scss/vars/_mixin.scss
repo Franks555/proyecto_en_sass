@@ -3,3 +3,11 @@
     color: $color_texto;
     font-size: 1rem;
 }
+
+@mixin animacion_letra($delay){
+    animation-name: animacion_letra;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: $delay;
+}

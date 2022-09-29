@@ -20,171 +20,87 @@
 /*--------------------  Animaciones  --------------------*/
 
 .reserva_letra_1{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3s;
+    @include animacion_letra(3s);
 }
 
 .reserva_letra_2{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.1s;
+    @include animacion_letra(3.1s);
 }
 
 .reserva_letra_3{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.2s;
+    @include animacion_letra(3.2s);
 }
 
 .reserva_letra_4{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.3s;
+    @include animacion_letra(3.3s);
 }
 
 .reserva_letra_5{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.4s;
+    @include animacion_letra(3.4s);
 }
 
 .reserva_letra_6{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.5s;
+    @include animacion_letra(3.5s);
 }
 
 .reserva_letra_7{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.6s;
+    @include animacion_letra(3.6s);
 }
 
 .reserva_letra_8{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.7s;
+    @include animacion_letra(3.7s);
 }
 
 .reserva_letra_9{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.8s;
+    @include animacion_letra(3.8s);
 }
 
 .reserva_letra_10{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 3.9s;
+    @include animacion_letra(3.9s);
 }
 
 .reserva_letra_11{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4s;
+    @include animacion_letra(4s);
 }
 
 .reserva_letra_11{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.1s;
+    @include animacion_letra(4.1s);
 }
 
 .reserva_letra_12{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.2s;
+    @include animacion_letra(4.2s);
 }
 
 .reserva_letra_13{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.3s;
+    @include animacion_letra(4.3s);
 }
 
 .reserva_letra_14{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.4s;
+    @include animacion_letra(4.4s);
 }
 
 .reserva_letra_15{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.5s;
+    @include animacion_letra(4.5s);
 }
 
 .reserva_letra_16{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.6s;
+    @include animacion_letra(4.6s);
 }
 
 .reserva_letra_17{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.7s;
+    @include animacion_letra(4.7s);
 }
 
 .reserva_letra_18{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.8s;
+    @include animacion_letra(4.8s);
 }
 
 .reserva_letra_19{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 4.9s;
+    @include animacion_letra(4.9s);
 }
 
 .reserva_letra_20{
-    animation-name: animacion_letra;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 5s;
+    @include animacion_letra(5s);
 }
 
 /*------- Sección Reserva de turno -------*/
@@ -196,27 +112,25 @@
     "reserva_texto reserva_imagen"
     "reserva_boton reserva_imagen";
     @include estilo_texto(#EAF3F2, #49B7BF);
+
+    .reserva_texto{
+        grid-area: reserva_texto;
+        align-self: center;
+        justify-self: end;
+    
+        width: 500px;
+        font-size: 15px;
+        h1{    
+            font-size: 35px;
+            padding-right: 40px;
+            padding-bottom: 30px; 
+        }
+        p{
+            text-align: justify;
+        }
+    }
 }
 
-.reserva_texto{
-    grid-area: reserva_texto;
-    align-self: center;
-    justify-self: end;
-
-    width: 500px;
-    font-size: 15px;
-}
-
-.reserva_texto h1{    
-font-size: 35px;
-padding-right: 40px;
-padding-bottom: 30px; 
-}
-
-
-.reserva_texto p{
-text-align: justify;
-}
 
 .reserva_boton{
     grid-area: reserva_boton;
@@ -224,26 +138,24 @@ text-align: justify;
     align-self: center;
     padding-top: 20px;
     padding-right: 150px;
-}
-
-.reserva_boton a{
-    background: linear-gradient(to top, #be6f1a,  #F58E22);
-    position: relative;
-    bottom: 0px;
-    transition: 0.3s;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 25px;
-    padding-left: 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-.reserva_boton a:hover{
-    position: relative;
-    bottom: 2px;
-    transition: 0.3s;
+    a{
+        background: linear-gradient(to top, #be6f1a,  #F58E22);
+        position: relative;
+        bottom: 0px;
+        transition: 0.3s;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 25px;
+        padding-left: 25px;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        &:hover{
+            position: relative;
+            bottom: 2px;
+            transition: 0.3s;
+        }
+    }
 }
 
 
@@ -251,10 +163,9 @@ text-align: justify;
     grid-area: reserva_imagen;
     justify-self: start;
     width: 520px;
-}
-
-.reserva_imagen img{
-    width: 500px;
+    img{
+        width: 500px;
+    }
 }
 
 
@@ -266,51 +177,36 @@ text-align: justify;
     flex-direction: column;
     @include estilo_texto(white, #817D76);
     @extend %formato_seccion;
-}
-
-.especialidad_texto p{
-    text-align: center;
-}
-
-.especialidades p{
-    padding-bottom: 40px;
-}
-
-.especialidades li{
-    display: inline-block;
-    padding-left: 60px;
-    transform: scale(1,1);
-    transition: 0.3s;
-}
-
-.especialidades li img{
-    transform: scale(1,1);
-    transition: 0.3s;
-}
-    .especialidades li p{
+    .especialidad_texto p{
         text-align: center;
-        padding-left: 5px;
-        padding-top: 10px;
-        color:  #49B7BF;
-        font-weight: 600;
     }
+    p{
+        padding-bottom: 40px;
+    }
+    li{
+        display: inline-block;
+        padding-left: 60px;
+        transform: scale(1,1);
+        transition: 0.3s;
+        img{
+            transform: scale(1,1);
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.3s;
+            }
+        }
+        p{
+            text-align: center;
+            padding-left: 5px;
+            padding-top: 10px;
+            color:  #49B7BF;
+            font-weight: 600;
+        }
 
-.especialidades li img:hover{
-    transform: scale(1.1,1.1);
-    transition: 0.3s;
+    }
 }
 
-.especialidad{
-    padding: 20px;
-}
-
-.especialidad p{
-    padding-top: 10px;
-}
-
-.especialidad h2{
-    color: #7A7671;
-}
 
 /*------- Sección Servicios -------*/
 
@@ -322,59 +218,49 @@ text-align: justify;
     "servicio_texto servicio_texto servicio_texto"
     "servicio_1 servicio_2 servicio_3";
     @extend %formato_seccion;
+    .servicio_texto{
+        grid-area: servicio_texto;
+        margin-bottom: 30px;
+        p{
+            margin-bottom: 40px;
+        }
+    }
+    .servicio_1{
+        grid-area: servicio_1;
+        img{
+            transform: rotateY(0deg);
+            transition: 0.3s;
+            &:hover{
+                transform: rotate(2deg);
+                transition: 0.3s;
+            }
+        }
+
+    }
+    .servicio_2{
+        grid-area: servicio_2;
+        img{
+            transform: rotateY(0deg);
+            transition: 0.3s;
+            &:hover{
+                transform: rotate(-2deg);
+                transition: 0.3s;
+            }
+        }
+    }
+    .servicio_3{
+        grid-area: servicio_3;
+        img{
+            transform: rotateY(0deg);
+            transition: 0.3s;
+            &:hover{
+                transform: rotate(2deg);
+                transition: 0.3s;
+            }
+        }
+    }
 }
 
-.servicio_texto{
-    grid-area: servicio_texto;
-    margin-bottom: 30px;
-}
-
-.servicio_texto p{
-    margin-bottom: 40px;
-}
-
-
-.servicio_1{
-    grid-area: servicio_1;
-}
-
-.servicio_1 img{
-    transform: rotateY(0deg);
-    transition: 0.3s;
-}
-
-.servicio_1 img:hover{
-    transform: rotate(2deg);
-    transition: 0.3s;
-}
-
-.servicio_2{
-    grid-area: servicio_2;
-}
-
-.servicio_2 img{
-    transform: rotateY(0deg);
-    transition: 0.3s;
-}
-
-.servicio_2 img:hover{
-    transform: rotate(-2deg);
-    transition: 0.3s;
-}
-
-.servicio_3{
-    grid-area: servicio_3;
-}
-
-.servicio_3 img{
-    transform: rotateY(0deg);
-    transition: 0.3s;
-}
-
-.servicio_3 img:hover{
-    transform: rotate(2deg);
-    transition: 0.3s;
-}
 
 /*------- Sección Beneficios -------*/
 
@@ -385,84 +271,72 @@ text-align: justify;
     justify-content: space-around;
     @include estilo_texto( white, #817D76);
     @extend %formato_seccion;
+    p{
+        width: 200px;
+        text-align: center;
+    }
+    h3{
+        padding-bottom: 20px;
+    }
+    .beneficio_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        img{
+            width: 80px;
+            padding: 15px;
+        }
+        p{
+            width: 310px;
+            text-align: center;
+        }
+    }
+    .beneficio_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        img{
+            width: 80px;
+            padding: 15px;
+        }
+        p{
+            width: 310px;
+            text-align: center;
+        }
+    }
+    .beneficio_3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        img{
+            width: 80px;
+            padding: 15px;
+        }
+        p{
+            width: 310px;
+            text-align: center;
+        }
+    }
+    .beneficio_4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        img{
+            width: 80px;
+            padding: 15px;
+        }
+        p{
+            width: 310px;
+            text-align: center;
+        }
+    }
 }
 
-.beneficios p{
-    width: 200px;
-    text-align: center;
-}
 
-.beneficios h3{
-    padding-bottom: 20px;
-}
-
-.beneficio_1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.beneficio_1 img{
-    width: 80px;
-    padding: 15px;
-}
-
-.beneficio_1 p{
-    width: 310px;
-    text-align: center;
-}
-
-.beneficio_2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.beneficio_2 img{
-    width: 80px;
-    padding: 15px;
-}
-
-.beneficio_2 p{
-    width: 310px;
-    text-align: center;
-}
-
-.beneficio_3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.beneficio_3 img{
-    width: 80px;
-    padding: 15px;
-}
-
-.beneficio_3 p{
-    width: 310px;
-    text-align: center;
-}
-
-.beneficio_4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.beneficio_4 img{
-    width: 80px;
-    padding: 15px;
-}
-
-.beneficio_4 p{
-    width: 310px;
-    text-align: center;
-}
 /*------- Sección Opiniones -------*/
 
 .opiniones{
@@ -472,71 +346,59 @@ text-align: justify;
     "opinion_titulo opinion_paciente ."
     "opinion_texto opinion_paciente .";
     @extend %formato_seccion;
-}
+    .opinion_titulo{
+        grid-area: opinion_titulo;
+        justify-self: end;
+        align-self: center; 
+        padding-right: 120px;
+        h2{
+            color: #49B7BF;
+            padding-bottom: 0px;    
+        }
+    }
+    .opinion_texto{
+        grid-area: opinion_texto;
+        justify-self: end;
+        padding-right: 30px;
+        width: 450px;
+        height: 80px;
+        p{
+            color: #49B7BF;
+            font-size: 16px;
+            width: 350px;
+            height: 80px;
+        }
+    }
+    .opinion_paciente{
+        grid-area: opinion_paciente;
+        border:#7A7671 2px solid;
+        border-radius: 20px;
+        padding-left: 50px;
+        display: inline-block;
+        width: 400px;
+        justify-self: start;
+        img{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            height: 60px;
+        }
+        h4{
 
-
-.opinion_titulo{
-    grid-area: opinion_titulo;
-    justify-self: end;
-    align-self: center; 
-    padding-right: 120px;
-}
-
-.opinion_titulo h2{
-    color: #49B7BF;
-    padding-bottom: 0px;    
-}
-
-.opinion_texto{
-    grid-area: opinion_texto;
-    justify-self: end;
-    padding-right: 30px;
-    width: 450px;
-    height: 80px;
-}
-
-.opiniones_texto p{
-    color: #49B7BF;
-    font-size: 16px;
-    width: 350px;
-    height: 80px;
-}
-
-.opinion_paciente{
-    grid-area: opinion_paciente;
-    border:#7A7671 2px solid;
-    border-radius: 20px;
-    padding-left: 50px;
-    display: inline-block;
-    width: 400px;
-    justify-self: start;
-
-}
-
-.opinion_paciente img{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 60px;
-}
-
-.opinion_paciente h4{
-
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-}
-
-.opinion_paciente p{
-    color: #49B7BF;
-    text-align: justify;
-    width: 310px;
-}
-
-.perfil_paciente ul{
-    list-style: none;
-    width: 200px;
-}
-
-.perfil_paciente li{
-    display: inline-block;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+        }
+        p{
+            color: #49B7BF;
+            text-align: justify;
+            width: 310px;
+        }
+        .perfil_paciente ul{
+            list-style: none;
+            width: 200px;
+            li{
+                display: inline-block;
+            }
+        }
+    }
 }
