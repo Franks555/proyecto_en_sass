@@ -6,7 +6,10 @@
 Proyecto web del Centro Médico Healthar. El mismo busca brindar de manera sencilla, una mirada acerca de las actividades que realiza la clínica, su historia y las sucursales que posee. Ofrece la posiblidad de solicitar turnos online, conocer los profesionales que trabajan allí, las especialidades en las que hace foco y los beneficios a los afiliados.
 
 
-#### - Tiempo estimado de desarrollo
+#### - Plazos
+#####  - Fecha de inicio:
+11/07/2022
+##### - Tiempo estimado de desarrollo:
 2 meses
 
 
@@ -16,6 +19,6 @@ Proyecto web del Centro Médico Healthar. El mismo busca brindar de manera senci
 3. SCSS
 4. GIT
 
-#### - Próximos pasos
+#### - Revisiones a futuro
 
 Incorporar funcionalidades con JavaScript
