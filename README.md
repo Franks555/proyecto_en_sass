@@ -1,1 +1,1 @@
-![HealthAr Logo](images/logo.png | width=200)
+![HealthAr Logo](/images/logo.png | width=200)
