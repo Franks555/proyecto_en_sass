@@ -27,4 +27,4 @@ Incorporar funcionalidades con JavaScript
 
 ### Acerca del autor
 
-Mi nombre es Francisco Aquerreta, tengo 33 años y soy Analista de sistemas. Desde siempre me interesó el desarrollo web, es por eso que actualmente, me encuentro realizando diferentes cursos y prácticas, adquiriendo nuevos conocimientos, con el fin de en un futuro, poder formar parte de grandes proyectos.
+Mi nombre es Francisco, tengo 33 años y soy Analista de sistemas. Desde siempre me interesó el desarrollo web, es por eso que actualmente, me encuentro realizando diferentes cursos y prácticas, adquiriendo nuevos conocimientos, con el fin de en un futuro, poder formar parte de grandes proyectos.
