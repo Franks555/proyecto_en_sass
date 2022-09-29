@@ -1,1 +1,1 @@
-![](images/logo.png)
+![](images/logo_readme.png)
