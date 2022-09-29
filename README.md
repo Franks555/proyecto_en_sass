@@ -1,1 +1,1 @@
-![](/images/logo.png | width=200)
+![](/images/logo.png)
