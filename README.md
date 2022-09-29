@@ -27,4 +27,8 @@ Incorporar funcionalidades con JavaScript
 
 ### Acerca del autor
 
+<<<<<<< HEAD
 Mi nombre es Francisco, tengo 33 años y soy Analista de sistemas. Desde siempre me interesó el desarrollo web, es por eso que actualmente, me encuentro realizando diferentes cursos y prácticas y adquiriendo nuevos conocimientos, con el fin de en un futuro, poder formar parte de grandes proyectos.
+=======
+Mi nombre es Francisco, tengo 33 años y soy Analista de sistemas. Desde siempre me interesó el desarrollo web, es por eso que actualmente, me encuentro realizando diferentes cursos y prácticas y adquiriendo nuevos conocimientos, con el fin de en un futuro, poder formar parte de grandes proyectos.
+>>>>>>> ce07dcf24d25c5c84bbbeea6e593bb44f7094f68
