@@ -1,6 +1,25 @@
 .sucursales{
     padding: 20px;
     background-color: #EAF3F2;
+    display: grid;
+    grid-template-areas:
+    "titulo_sucursales titulo_sucursales"
+    "sucursal_ba sucursal_laPlata";
+    h1{
+        grid-area: titulo_sucursales;
+        align-self: center;
+        justify-self: start;
+    }
+    .sucursal_ba{
+        grid-area: sucursal_ba;
+        align-self: center;
+        justify-self: end;
+    }
+    .sucursal_laPlata{
+        grid-area: sucursal_laPlata;
+        align-self: center;
+        justify-self: end;
+    }
     h2{
         text-decoration: underline;
         padding-top: 20px;

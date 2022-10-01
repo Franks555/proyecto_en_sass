@@ -433,15 +433,24 @@ html, body {
     padding: 20px;
     text-align: justify;
     margin-bottom: 0px; }
-  .nuestra_historia img {
-    width: 515px;
-    padding: 20px; }
+  .nuestra_historia .texto_imagen_historia {
+    display: flex;
+    flex-direction: row; }
+    .nuestra_historia .texto_imagen_historia p {
+      padding: 20px;
+      text-align: justify;
+      margin-bottom: 0px; }
+    .nuestra_historia .texto_imagen_historia img {
+      width: 315px;
+      padding: 20px; }
 
 main .nuestros_profesionales {
   background-color: #EAF3F2;
   padding-top: 20px;
   padding-bottom: 40px; }
   main .nuestros_profesionales img {
+    display: block;
+    margin: 0 auto;
     width: 500px;
     padding-top: 35px;
     padding-left: 20px;
@@ -459,7 +468,21 @@ main .nuestros_profesionales {
 
 .sucursales {
   padding: 20px;
-  background-color: #EAF3F2; }
+  background-color: #EAF3F2;
+  display: grid;
+  grid-template-areas: "titulo_sucursales titulo_sucursales" "sucursal_ba sucursal_laPlata"; }
+  .sucursales h1 {
+    grid-area: titulo_sucursales;
+    align-self: center;
+    justify-self: start; }
+  .sucursales .sucursal_ba {
+    grid-area: sucursal_ba;
+    align-self: center;
+    justify-self: end; }
+  .sucursales .sucursal_laPlata {
+    grid-area: sucursal_laPlata;
+    align-self: center;
+    justify-self: end; }
   .sucursales h2 {
     text-decoration: underline;
     padding-top: 20px; }
@@ -578,8 +601,8 @@ footer {
   100% {
     transform: rotate(360deg); } }
 
-@media (max-width: 1200px) {
-  /*--------------------  Menú de navegación y logo | 1200px --------------------*/
+@media (max-width: 1600px) {
+  /*--------------------  Menú de navegación y logo | 1600px --------------------*/
   .subtitulos_secciones {
     color: #7A7671;
     padding-bottom: 40px;
@@ -597,19 +620,19 @@ footer {
     padding-left: 25px; }
   .search_bar {
     padding: 5px; }
-  /*-------------------- Sección Reserva de turno | 1200px --------------------*/
+  /*-------------------- Sección Reserva de turno | 1600px --------------------*/
   .reserva_texto {
     font-size: 1rem; }
-  .reserva_texto h1 {
-    font-size: 2.2rem; }
+    .reserva_texto h1 {
+      font-size: 2.2rem; }
   .reserva_boton a {
     font-size: 1.1rem; }
-  /*-------------------- Sección Reserva de turno | 1200px --------------------*/
+  /*-------------------- Sección Reserva de turno | 1600px --------------------*/
   .especialidad_categorias ul {
     text-align: center; }
-  .especialidad_categorias li {
-    padding: 20px; }
-  /*-------------------- Sección Beneficios | 1200px --------------------*/
+    .especialidad_categorias ul li {
+      padding: 20px; }
+  /*-------------------- Sección Beneficios | 1600px --------------------*/
   .beneficios {
     display: grid;
     grid-template-areas: "beneficio_titulo beneficio_titulo " "beneficio_1 beneficio_2" "beneficio_3 beneficio_4";
@@ -617,11 +640,11 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 5%; }
-  .beneficios h3 {
-    font-size: 1.2rem; }
-  .beneficios p {
-    font-size: 1rem;
-    grid-area: beneficio_titulo; }
+    .beneficios h3 {
+      font-size: 1.2rem; }
+    .beneficios p {
+      font-size: 1rem;
+      grid-area: beneficio_titulo; }
   .beneficio_1 {
     padding-right: 20px;
     grid-area: beneficio_1; }
@@ -634,9 +657,21 @@ footer {
   .beneficio_4 {
     padding-right: 20px;
     grid-area: beneficio_4; }
-  /*-------------------- contacto.html | 1200px --------------------*/
+  /*-------------------- contacto.html | 1600px --------------------*/
   .contacto form input[type=submit] {
     margin-left: 280px; } }
+
+/*-------------------- contacto.html | 1400px --------------------*/
+@media (max-width: 1400px) {
+  .sucursales {
+    display: flex;
+    flex-direction: column; } }
+
+/*-------------------- contacto.html | 1024px --------------------*/
+@media (max-width: 1024px) {
+  .nuestra_historia .texto_imagen_historia {
+    display: flex;
+    flex-direction: column; } }
 
 /*-------------------------  768px -----------------------------*/
 @media (max-width: 768px) {
@@ -656,16 +691,16 @@ footer {
     padding: 30px; }
   .logo {
     justify-self: center; }
-  .logo img {
-    width: 260px; }
+    .logo img {
+      width: 260px; }
   .nav_bar ul {
     text-align: center; }
-  .nav_bar li {
-    font-size: 1.2rem;
-    display: inline-block;
-    padding-left: 35px;
-    padding-bottom: 15px;
-    padding-top: 20px; }
+    .nav_bar ul li {
+      font-size: 1.2rem;
+      display: inline-block;
+      padding-left: 35px;
+      padding-bottom: 15px;
+      padding-top: 20px; }
   .search_bar {
     padding: 5px; }
   /*-------------------- Sección Reserva de turno | 768px --------------------*/
@@ -698,11 +733,11 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 5%; }
-  .beneficios h3 {
-    font-size: 1.2rem; }
-  .beneficios p {
-    font-size: 1rem;
-    grid-area: beneficio_titulo; }
+    .beneficios h3 {
+      font-size: 1.2rem; }
+    .beneficios p {
+      font-size: 1rem;
+      grid-area: beneficio_titulo; }
   .beneficio_1 {
     padding-right: 20px;
     grid-area: beneficio_1; }
@@ -729,9 +764,9 @@ footer {
   .contacto form input[type=submit] {
     margin-left: 280px; }
   /*-------------------- Footer | 768px --------------------*/
-  footer_titulo h3 {
+  .footer_titulo h3 {
     font-size: 1.1rem; }
-  footer_copyright p {
+  .footer_copyright p {
     font-size: 1.1rem; } }
 
 /*-------------------------  600px -----------------------------*/
@@ -746,22 +781,22 @@ footer {
     width: 400px; }
   .servicio_1 {
     padding-bottom: 30px; }
-  .servicio_1 p {
-    width: 200px;
-    text-align: center;
-    padding-top: 10px; }
+    .servicio_1 p {
+      width: 200px;
+      text-align: center;
+      padding-top: 10px; }
   .servicio_2 {
     padding-bottom: 30px; }
-  .servicio_2 p {
-    width: 200px;
-    text-align: center;
-    padding-top: 10px; }
+    .servicio_2 p {
+      width: 200px;
+      text-align: center;
+      padding-top: 10px; }
   .servicio_3 {
     padding-bottom: 30px; }
-  .servicio_3 p {
-    width: 200px;
-    text-align: center;
-    padding-top: 10px; }
+    .servicio_3 p {
+      width: 200px;
+      text-align: center;
+      padding-top: 10px; }
   /*-------------------- Sección Reserva de turno | 600px --------------------*/
   .beneficios {
     display: flex;
@@ -771,9 +806,9 @@ footer {
     padding-bottom: 40px; }
   .beneficio_2 {
     padding-bottom: 40px; }
-  .beneficio_2 h3 {
-    width: 190px;
-    text-align: center; }
+    .beneficio_2 h3 {
+      width: 190px;
+      text-align: center; }
   .beneficio_3 {
     padding-bottom: 40px; }
   .beneficio_4 {
@@ -830,9 +865,9 @@ footer {
     padding-bottom: 40px; }
   .beneficio_2 {
     padding-bottom: 40px; }
-  .beneficio_2 h3 {
-    width: 190px;
-    text-align: center; }
+    .beneficio_2 h3 {
+      width: 190px;
+      text-align: center; }
   .beneficio_3 {
     padding-bottom: 40px; }
   .beneficio_4 {
@@ -842,8 +877,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .opiniones p {
-    width: 250px; }
+    .opiniones p {
+      width: 250px; }
   .opinion_texto p {
     display: none; }
   .opinion_titulo h2 {
@@ -854,12 +889,12 @@ footer {
     flex-direction: column;
     padding: 0;
     width: 440px; }
-  .opinion_paciente h4 {
-    text-align: center;
-    width: 450px; }
-  .opinion_paciente p {
-    width: 380px;
-    padding-left: 30px; }
+    .opinion_paciente h4 {
+      text-align: center;
+      width: 450px; }
+    .opinion_paciente p {
+      width: 380px;
+      padding-left: 30px; }
   /*-------------------- contacto.html | 480px --------------------*/
   .contacto form input[type=submit] {
     margin-left: 280px; } }
@@ -876,14 +911,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .reserva_texto h1 {
-    font-size: 30px;
-    width: 320px;
-    padding-top: 30px; }
-  .reserva_texto p {
-    width: 300px;
-    font-size: 1.3rem;
-    text-align: center; }
+    .reserva_texto h1 {
+      font-size: 30px;
+      width: 320px;
+      padding-top: 30px; }
+    .reserva_texto p {
+      width: 300px;
+      font-size: 1.3rem;
+      text-align: center; }
   .reserva_imagen img {
     width: 300px;
     position: relative; }
@@ -919,9 +954,9 @@ footer {
     padding-bottom: 40px; }
   .beneficio_2 {
     padding-bottom: 40px; }
-  .beneficio_2 h3 {
-    width: 190px;
-    text-align: center; }
+    .beneficio_2 h3 {
+      width: 190px;
+      text-align: center; }
   .beneficio_3 {
     padding-bottom: 40px; }
   .beneficio_4 {
@@ -931,8 +966,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .opiniones p {
-    width: 250px; }
+    .opiniones p {
+      width: 250px; }
   .opinion_texto p {
     display: none; }
   .opinion_titulo h2 {
@@ -943,11 +978,11 @@ footer {
     flex-direction: column;
     padding: 0;
     width: 300px; }
-  .opinion_paciente h4 {
-    text-align: center;
-    width: 270px; }
-  .opinion_paciente p {
-    width: 270px; }
+    .opinion_paciente h4 {
+      text-align: center;
+      width: 270px; }
+    .opinion_paciente p {
+      width: 270px; }
   /*-------------------- quienes_somos.html | 320px --------------------*/
   .nuestra_historia img {
     width: 300px; }

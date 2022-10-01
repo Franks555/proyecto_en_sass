@@ -15,9 +15,18 @@
         text-align: justify;
         margin-bottom: 0px;
     }
+    .texto_imagen_historia{
+        display: flex;
+        flex-direction: row;
+    p{
+        padding: 20px;
+        text-align: justify;
+        margin-bottom: 0px;
+    }
 
     img{
-        width: 515px;
+        width: 315px;
         padding: 20px;  
     }
+    }   
 }
